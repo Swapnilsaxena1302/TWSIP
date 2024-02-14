@@ -23,10 +23,10 @@ public class NumberguessingGame {
 			
 		}
 		else if(randomNumber > playerGuess) {
-			System.out.println("Nope!The Number is Higher. Guess again.");
+			System.out.println("Nope!The Number is Greater. Guess again.");
 		}
 		else {
-			System.out.println("Nope!The Number is Lower . Guess again.");
+			System.out.println("Nope!The Number is Smaller. Guess again.");
 		}
 	} 
 		}
